@@ -18,7 +18,6 @@ body {
 
 }
 
-
 .abaAzul {
     width: 300px;
     height: 850px;
@@ -87,10 +86,11 @@ body {
 
 label::after {
     content: url('img/vector1.png');
-    margin-right: 10px;
     font-family: "Space Grotesk";
     font-size: 20px;
     font-weight: 600;
+    position: absolute;
+    right: -20px;
 }
 
 input[type="radio"] {
@@ -109,7 +109,8 @@ input[type="radio"] {
 
 .accordion input[type="radio"]:checked + label + .content {
     max-height: 400px;
-    padding: 10px 10px 20px;
+    padding: 10px 10px 10px;
+
 }
 
 .accordion input[type="radio"]:checked + label::after {
