@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.barraSuperior {
+    width: 1480px;
+    height: 30px;
+    padding: 20px;
+    background-color: #007FDA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.abaLateral {
+    width: 200px;
+    height: 850px;
+    padding: 20px;
+    background-color: #e1e4f3;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+
+}
+
+.posicaoLogo {
+    position: absolute;
+    top: 90px;
+    margin-left: 40px;
+
+}
+
+.abaLateral a {
+    font-family: "Poppins";
+    text-decoration: none;
+
+}
+
+.Dashboard {
+    background-color: #707fdd3c;
+    padding: 10px 44px 10px 55px;
+    border-radius: 20px;
+    color: #558FC0;
+    font-size: 18px;
+    position: absolute;
+    top: 205px;
+    margin-left: 0px;
+}
+
+.posicaoImgDash {
+    position: absolute;
+    top: 207px;
+    margin-left: 9px;
+
+}
+
+.novoCadastro {
+    background-color: #a4a8c33c;
+    padding: 10px 10px 10px 55px;
+    border-radius: 20px;
+    color: #0C6B74;
+    font-size: 18px;
+    position: absolute;
+    top: 265px;
+    margin-left: 0px;
+}
+
+.posicaoImgNCad {
+    position: absolute;
+    top: 271px;
+    margin-left: 9px;
+
+}
+
+h5 {
+    color: #0C6B74;
+    font-family: "Poppins";
+    font-size: 27px;
+    position: absolute;
+    top: 290px;
+}
+
+.PacientesGerais {
+    background-color: #1892b140;
+    padding: 10px 8px 10px 8px;
+    border-radius: 20px;
+    color: #558FC0;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+    margin-left: 10px;
+}
+
+.TiposPacientes1 {
+    background-color: #ff71e576;
+    padding: 10px 13px 10px 13px;
+    border-radius: 20px;
+    position: absolute;
+    top: 460px;
+    margin-left: 43px;
+}
+
+.TiposPacientes2 {
+    background-color: #ffa2007a;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 520px;
+    margin-left: 43px;
+}
+
+.TiposPacientes3 {
+    background-color: #ff11006d;
+    padding: 10px 18px 10px 19px;
+    border-radius: 20px;
+    position: absolute;
+    top: 580px;
+    margin-left: 43px;
+}
+
+.TiposPacientes4 {
+    background-color: #a612e569;
+    padding: 10px 7px 10px 7px;
+    border-radius: 20px;
+    position: absolute;
+    top: 640px;
+    margin-left: 43px;
+}
+
+h5.Ajuda {
+    color: #0C6B74;
+    font-family: "Poppins";
+    font-size: 27px;
+    position: absolute;
+    top: 660px;
+    margin-left: 60px;
+}
+
+.PerguntasFreq {
+    background-color: #a4a8c373;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    color: #0C6B74;
+    font-size: 16px;
+    position: absolute;
+    top: 760px;
+    left: 16px;
+}
+
+.CentralUsuario {
+    background-color: #667ff174;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    color: #0C6B74;
+    font-size: 16px;
+    position: absolute;
+    top: 820px;
+    left: 40px;
+}
+
+.Voltar {
+    background-color: #0C91F0;
+    padding: 8px 30px 8px 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    top: 915px;
+    left: 20px;
+}
+
+.posicaoImgSetaVoltar {
+    position: absolute;
+    top: 918px;
+    left: 25px;
+}
