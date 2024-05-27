@@ -8,7 +8,7 @@ body {
 }
 
 .barraSuperior {
-    width: 1480px;
+    width: 1460px;
     height: 30px;
     padding: 20px;
     background-color: #007FDA;
@@ -20,22 +20,13 @@ body {
 
 .tituloSobrevidas {
     position: absolute;
-    top: -10px;
-    margin-top: 9px;
-    margin-left: 220px;
-}
-
-.tituloSobrevidas {
-    position: absolute;
-    top: -10px;
-    margin-top: 9px;
+    top: 5px;
     margin-left: 220px;
 }
 
 .tituloPacientesGerais {
     position: absolute;
-    top: -10px;
-    margin-top: 10px;
+    top: 5px;
     margin-left: 670px;
 }
 
@@ -47,6 +38,39 @@ h2 {
     color: #ffffff;
     font-size: 28px;
 }
+
+.posicaoImgSaida {
+    position: absolute;
+    top: 22px;
+    right: 32px;
+}
+
+.usuario {
+    font-family: "Poppins";
+    text-decoration: none;
+    background-color: #0C91F0;
+    padding: 10px 40px 10px 50px;
+    border-radius: 20px;
+    color: #f0f0f0;
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    right: 132px;
+}
+
+
+.posicaoImgU {
+    position: absolute;
+    top: 28px;
+    right: 262px;
+}
+
+.posicaoImgSino {
+    position: absolute;
+    top: 25px;
+    right: 142px;
+}
+
 h3 {
     color: #ffffff;
     font-size: 50px;
@@ -379,11 +403,11 @@ h5.Ajuda {
     font-size: 16px;
     position: absolute;
     top: 915px;
-    left: 20px;
+    left: 12px;
 }
 
 .posicaoImgSetaVoltar {
     position: absolute;
     top: 918px;
-    left: 25px;
+    left: 20px;
 }

@@ -8,33 +8,94 @@ body {
 }
 
 .barraSuperior {
-    width: 1480px;
+    width: 1460px;
     height: 30px;
     padding: 20px;
     background-color: #007FDA;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    position: fixed;
+}
 
+.tituloSobrevidas {
+    position: fixed;
+    top: 5px;
+    margin-left: 220px;
+}
+
+.tituloFAQ {
+    position: fixed;
+    top: 5px;
+    margin-left: 670px;
+}
+
+h1 {
+    z-index: 1;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+}
+h2 {
+    z-index: 1;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    font-size: 28px;
+}
+
+.usuario {
+    font-family: "Poppins";
+    text-decoration: none;
+    background-color: #0C91F0;
+    padding: 10px 40px 10px 50px;
+    border-radius: 20px;
+    color: #f0f0f0;
+    font-size: 20px;
+    position: fixed;
+    top: 18px;
+    right: 150px;
+}
+
+
+.posicaoImgU {
+    position: fixed;
+    top: 28px;
+    right: 280px;
+}
+
+.posicaoImgSino {
+    position: fixed;
+    top: 25px;
+    right: 160px;
+}
+
+.posicaoImgSaida {
+    position: fixed;
+    top: 22px;
+    right: 50px;
 }
 
 .abaAzul {
     width: 300px;
-    height: 850px;
-    padding: 20px;
+    height: 700px;
+    padding: 0px;
     background-color: #007FDA;
     border-bottom-left-radius: 10px;
+    position: fixed;
+    z-index: -1;
+    top: 20px;
+
 }
 
 .posicaoLogo {
     position: absolute;
-    top: 90px;
-    margin-left: 45px;
+    top: 70px;
+    margin-left: 90px;
 }
 
 .posicaoImgFaq {
     position: absolute;
-    top: 320px;
+    top: 220px;
+    margin-left: 50px;
 }
 
 .Voltar {
@@ -46,21 +107,23 @@ body {
     color: #ffffff;
     font-size: 16px;
     position: absolute;
-    top: 915px;
-    left: 18px;
+    top: 650px;
+    left: 12px;
 }
 .posicaoImgSetaVoltar {
     position: absolute;
-    top: 918px;
-    left: 25px;
+    top: 653px;
+    left: 20px;
 }
 
 .accordion {
     margin: 60px auto;
     width: 700px;
+    height: 730px;
     position: absolute;
     top: 100px;
     right: 350px;
+    z-index: -2;
 }
 
 .accordion li {
