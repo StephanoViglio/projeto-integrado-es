@@ -28,7 +28,7 @@ h1 {
     text-align: center;
     font-size: 25px;
     color: #000000;
-    background-color: #ff11006e;
+    background-color: #ffa20096;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     padding: 10px 10px 10px 10px;
@@ -40,7 +40,7 @@ h1 {
 p {
     font-family: "Poppins";
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     color: #737B8B;
     position: relative;
     left: 15px;
@@ -55,7 +55,7 @@ p {
     margin-bottom: 12px;
     cursor: pointer;
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 18px;
     color: #737B8B;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -71,7 +71,7 @@ p {
     margin-bottom: 12px;
     cursor: pointer;
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 18px;
     color: #737B8B;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -88,7 +88,7 @@ p {
 
 
   /* Create a custom radio button */
-.checkmark {
+.checkmark1, .checkmark2, .checkmark3 {
     position: absolute;
     top: 0;
     left: 0;
@@ -99,45 +99,62 @@ p {
   }
 
   /* On mouse-over, add a grey background color */
-.container1:hover input ~ .checkmark, .container2:hover input ~ .checkmark {
+.container1:hover input ~ .checkmark1, .container2:hover input ~ .checkmark1 {
     background-color: #ccc;
   }
 
-  /* When the radio button is checked, add a blue background */
-.container1 input:checked ~ .checkmark, .container2 input:checked ~ .checkmark {
-    background-color: #ff1100d6;
+  .container3:hover input ~ .checkmark2, .container4:hover input ~ .checkmark3 {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a color background */
+.container1 input:checked ~ .checkmark1, .container2 input:checked ~ .checkmark1 {
+    background-color: #ffa20096;
+  }
+
+  .container3 input:checked ~ .checkmark2, .container4 input:checked ~ .checkmark3 {
+    background-color: #ffa20096;
   }
 
   /* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
+.checkmark1:after, .checkmark2:after,  .checkmark3:after {
     content: "";
     position: absolute;
     display: none;
   }
 
+
   /* Show the indicator (dot/circle) when checked */
-.container1 input:checked ~ .checkmark:after, .container2 input:checked ~ .checkmark:after {
+.container1 input:checked ~ .checkmark1:after, .container2 input:checked ~ .checkmark1:after {
+    display: block;
+  }
+  .container3 input:checked ~ .checkmark2:after, .container4 input:checked ~ .checkmark3:after {
     display: block;
   }
 
-  .line {
-    width: 600px;
+  .line1 {
+    width: 598px;
     height: 0px;
     border: 1px solid #ccc;
+    position: relative;
+    top: -32px;
+  }
+
+  p.FaixaEtaria {
     position: relative;
     top: -30px;
   }
 
   .container3 {
     position: relative;
-    top: -52px;
+    top: -82px;
     left: 170px;
     padding-left: 35px;
     padding-right: 10px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     cursor: pointer;
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 18px;
     color: #737B8B;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -145,19 +162,55 @@ p {
     user-select: none;
   }
 
-  .container4 {
+  .line2 {
+    width: 598px;
+    height: 0px;
+    border: 1px solid #ccc;
     position: relative;
     top: -52px;
-    left: 180px;
+  }
+
+
+  p.FatoresRisco {
+    position: relative;
+    top: -50px;
+  }
+
+  .container4 {
+    position: relative;
+    top: -97px;
+    left: 200px;
     padding-left: 35px;
     margin-bottom: 12px;
     padding-right: 10px;
     cursor: pointer;
     font-family: "Poppins";
-    font-size: 20px;
+    font-size: 16px;
     color: #737B8B;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  }
+
+  .barraInferior {
+    width: 600px;
+    height: 30px;
+    background-color: #ffa20096;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+    top: -22px;
+    border-top: 2px solid #000000;
+  }
+
+  .Filtrar {
+    font-family: "Poppins";
+    font-size: 23px;
+    font-weight: bold;
+    color: #5e646e;
+    border-radius: 10px;
+    position: relative;
+    top: -45px;
+    left: 260px;
   }
