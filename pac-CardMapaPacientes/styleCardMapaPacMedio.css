@@ -23,16 +23,15 @@ body {
     border-radius: 10px;
 }
 
-
 .barraSuperior {
     width: 600px;
     height: 30px;
-    background-color: #ff11006e;
+    background-color: #ffa20096;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom: 2px solid #000000;
-    position: absolute;
-    top: 185px;
+    position: relative;
+    top: 0px;
   }
 
   p {
@@ -42,8 +41,8 @@ body {
     padding: 0px 0px 0px 10px;
     color: #000000;
     position: relative;
-    top: 30px;
-    z-index: 1;
+    top: -190px;
+    z-index: 2;
 }
 
 p.ultima {
@@ -54,33 +53,34 @@ p.ultima {
     width: 90px;
     height: 90px;
     padding: 0px 0px 0px 0px;
-    position: absolute;
-    top: 200px;
-    right: 530px;
-    z-index: 0;
+    position: relative;
+    top: 0px;
+    margin-left: 480px;
+    z-index: 1;
 }
 
-p.acessarCadastro {
+.acessarCadastro {
     font-family: "Poppins";
     font-size: 17px;
+    width: 80px;
     color: #000000;
     background-color: #fff;
-    border: 1px solid #ff11006e;
+    border: 1px solid #ffa20096;
     border-radius: 20px;
-    padding: 5px 5px 5px 5px;
-    position: absolute;
-    top: 330px;
-    right: 500px;
+    padding: 5px 5px 5px 10px;
     z-index: 0;
+    position: relative;
+    top: 10px;
+    left: 470px;
 }
 
 .barraInferior {
     width: 600px;
     height: 30px;
-    background-color: #ff11006e;
+    background-color: #ffa20096;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top: 2px solid #000000;
-    position: absolute;
-    bottom: 185px;
+    position: relative;
+    bottom: 166px;
   }
